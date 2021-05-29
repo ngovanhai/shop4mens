@@ -26,8 +26,6 @@ const Products = React.lazy(() => import('./features/Products/pages/MainPage'));
 const Login = React.lazy(() => import('./features/Login'));
 const Admin = React.lazy(() => import('./features/Admin'));
 const Category = React.lazy(() => import('./features/Products/pages/Category'));
-
-
 function App(props) {
   const dispatch = useDispatch();
 
